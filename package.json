@@ -1,0 +1,33 @@
+{
+  "name": "sniperbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "stream": "ts-node-dev src/stream.ts",
+    "filter": "ts-node-dev src/filterAddLiq.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnicetFantomas/SniperBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnicetFantomas/SniperBot/issues"
+  },
+  "homepage": "https://github.com/AnicetFantomas/SniperBot#readme",
+  "dependencies": {
+    "@pancakeswap/sdk": "^3.1.4",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.4.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "ws": "^8.13.0"
+  }
+}
