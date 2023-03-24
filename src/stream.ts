@@ -23,6 +23,7 @@ const streamingMempoolData = async () => {
                 hash: targetHash,
                 from: targetFrom,
             } = receipt
+            
             try {
                 console.info(`
                 TargetAmountInWei: ${targetAmountInWei}

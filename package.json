@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "ts-node-dev src/index.ts",
     "stream": "ts-node-dev src/stream.ts",
     "filter": "ts-node-dev src/filterAddLiq.ts"
   },
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/AnicetFantomas/SniperBot#readme",
   "dependencies": {
     "@pancakeswap/sdk": "^3.1.4",
+    "axios": "^1.3.4",
     "dotenv": "^16.0.3",
     "ethers": "^5.4.1",
     "ts-node": "^10.9.1",

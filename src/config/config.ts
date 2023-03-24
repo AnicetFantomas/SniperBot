@@ -12,7 +12,7 @@ export const config = {
 
     //conatains a list of tokens to monitor for addLiquidity
     TOKENS_TO_MONITOR: [
-        ""
+        "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
     ],
 
     /**
